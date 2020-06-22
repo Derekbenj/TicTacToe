@@ -7,7 +7,6 @@ int main() {
         std::cout << "hi ";
         std::cout << "another hi";
     }
-
     std::cout << '\n';
     */
     for(int i = 0; i < 15; i++);
