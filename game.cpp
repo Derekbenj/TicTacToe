@@ -2,10 +2,9 @@
 
 #include <iostream>
 
-Game::Game() : one{ names, ids }, two{ names, ids }, board{} {
+Game::Game() : one{ names, ids }, two{ names, ids }, board{}, playerOneTurn{1} {
     std::cout << "\n---------------------------This is "
                  "Tic-Tac-Toe!---------------------------\n";
-    int playerOneTurn{ 1 };
 }
 
 void Game::play() {
